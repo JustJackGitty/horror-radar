@@ -1,20 +1,22 @@
 {
   "date": "2026-09-10",
-  "generatedAt": "2026-09-10T01:09:52.208Z",
+  "generatedAt": "2026-09-10T01:17:42.873Z",
   "comparedTo": null,
+  "baselineAgeHours": null,
+  "minBaselineHours": 6,
   "youtube": {
     "games": [
       {
         "name": "The Backrooms",
         "known": true,
         "videos": 14,
-        "views": 4058074,
-        "likes": 99964,
+        "views": 4058525,
+        "likes": 99975,
         "channels": 14,
         "top": {
           "title": "How Did I Get In The Backrooms Again…",
           "id": "IBky3Qibdaw",
-          "views": 965163,
+          "views": 965177,
           "channel": "CaseOh",
           "thumb": "https://i.ytimg.com/vi/IBky3Qibdaw/mqdefault.jpg"
         },
@@ -29,13 +31,13 @@
         "name": "Snowed Under",
         "known": true,
         "videos": 13,
-        "views": 398528,
+        "views": 398534,
         "likes": 8350,
         "channels": 10,
         "top": {
           "title": "[Chilla's Art] Snowed Under - Vừa tỏ tình gái xong thì lăn ra hẹo",
           "id": "A3ygzMnslzw",
-          "views": 143062,
+          "views": 143063,
           "channel": "Cờ Su",
           "thumb": "https://i.ytimg.com/vi/A3ygzMnslzw/mqdefault.jpg"
         },
@@ -50,13 +52,13 @@
         "name": "Poppy Playtime",
         "known": true,
         "videos": 5,
-        "views": 904579,
-        "likes": 13191,
+        "views": 904652,
+        "likes": 13193,
         "channels": 5,
         "top": {
           "title": "🎙️ The REAL Voices Behind Poppy Playtime PART-2 ... 😱",
           "id": "L_51hzjDdik",
-          "views": 571549,
+          "views": 571586,
           "channel": "Exo Verse",
           "thumb": "https://i.ytimg.com/vi/L_51hzjDdik/mqdefault.jpg"
         },
@@ -70,16 +72,16 @@
       {
         "name": "Granny Live",
         "known": false,
-        "videos": 46,
-        "views": 146247142,
-        "likes": 104736,
+        "videos": 48,
+        "views": 114165590,
+        "likes": 47031,
         "channels": 3,
         "top": {
           "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #ishowspeed #short #horrorr",
-          "id": "ujUTR-Wx7JU",
-          "views": 7838046,
+          "id": "EsfVBbeya9k",
+          "views": 6887645,
           "channel": "XO GAMING YT",
-          "thumb": "https://i.ytimg.com/vi/ujUTR-Wx7JU/mqdefault.jpg"
+          "thumb": "https://i.ytimg.com/vi/EsfVBbeya9k/mqdefault.jpg"
         },
         "newest": "2026-09-09T13:30:33Z",
         "deltaViews": null,
@@ -113,13 +115,13 @@
         "name": "Kamla",
         "known": false,
         "videos": 5,
-        "views": 2642571,
+        "views": 2642582,
         "likes": 18312,
         "channels": 3,
         "top": {
           "title": "KAMLA AND GRANNY CELEBRATES RAKSHA BANDHAN || RAKSHA BANDHAN SPECIAL KAMLA VIDEO",
           "id": "iT2ZG4CW8qA",
-          "views": 921131,
+          "views": 921137,
           "channel": "ANADHIKA GAMING",
           "thumb": "https://i.ytimg.com/vi/iT2ZG4CW8qA/mqdefault.jpg"
         },
@@ -134,13 +136,13 @@
         "name": "Nurse Sees Animal Hospital 3danimation",
         "known": false,
         "videos": 2,
-        "views": 3927927,
-        "likes": 10382,
+        "views": 3928052,
+        "likes": 10383,
         "channels": 2,
         "top": {
           "title": "What Nurse Sees 😂 Animal Hospital (Anomaly) #3danimation",
           "id": "sGhPkAB8AR4",
-          "views": 3131679,
+          "views": 3131772,
           "channel": "BMuMAnimation",
           "thumb": "https://i.ytimg.com/vi/sGhPkAB8AR4/mqdefault.jpg"
         },
@@ -155,13 +157,13 @@
         "name": "Finding",
         "known": false,
         "videos": 3,
-        "views": 1428637,
-        "likes": 26374,
+        "views": 1428680,
+        "likes": 26376,
         "channels": 3,
         "top": {
           "title": "Finding EVERY ANOMALY in SCHOOL!",
           "id": "H5fyiYtyLjw",
-          "views": 695846,
+          "views": 695851,
           "channel": "I. M. Bixu",
           "thumb": "https://i.ytimg.com/vi/H5fyiYtyLjw/mqdefault.jpg"
         },
@@ -176,13 +178,13 @@
         "name": "CAT",
         "known": false,
         "videos": 3,
-        "views": 1064404,
-        "likes": 20830,
+        "views": 1064582,
+        "likes": 20837,
         "channels": 3,
         "top": {
           "title": "CAT IN THE HAT TREND JUST GOT MORE TERRIFYING #horror #catinthehat #scary #scarystories #shorts",
           "id": "Eegqim5T8Xc",
-          "views": 751530,
+          "views": 751633,
           "channel": "Junglyruss ",
           "thumb": "https://i.ytimg.com/vi/Eegqim5T8Xc/mqdefault.jpg"
         },
@@ -197,13 +199,13 @@
         "name": "Backrooms",
         "known": false,
         "videos": 4,
-        "views": 1047114,
+        "views": 1047176,
         "likes": 27004,
         "channels": 3,
         "top": {
           "title": "Backrooms - Mother",
           "id": "TUcSdinTfP4",
-          "views": 556542,
+          "views": 556583,
           "channel": "Buzzare",
           "thumb": "https://i.ytimg.com/vi/TUcSdinTfP4/mqdefault.jpg"
         },
@@ -218,13 +220,13 @@
         "name": "Anomaly",
         "known": false,
         "videos": 2,
-        "views": 3473366,
-        "likes": 70265,
+        "views": 3474517,
+        "likes": 70295,
         "channels": 2,
         "top": {
           "title": "Anomaly almost got in😨‼️OG [Animal Hospital] #animalhospital #roblox #animation #edit #art",
           "id": "BripO3Lo_rY",
-          "views": 3118355,
+          "views": 3119483,
           "channel": "°Kelly da Cheetah°",
           "thumb": "https://i.ytimg.com/vi/BripO3Lo_rY/mqdefault.jpg"
         },
@@ -239,13 +241,13 @@
         "name": "Escape",
         "known": false,
         "videos": 2,
-        "views": 2360843,
-        "likes": 22333,
+        "views": 2360850,
+        "likes": 22334,
         "channels": 2,
         "top": {
           "title": "Escape From Chunga Changa | Mobile Game",
           "id": "MeFLE9tJe54",
-          "views": 2257917,
+          "views": 2257924,
           "channel": "Sokher Gamer",
           "thumb": "https://i.ytimg.com/vi/MeFLE9tJe54/mqdefault.jpg"
         },
@@ -260,13 +262,13 @@
         "name": "THERE'S",
         "known": false,
         "videos": 2,
-        "views": 2146621,
-        "likes": 7351,
+        "views": 2146646,
+        "likes": 7352,
         "channels": 2,
         "top": {
           "title": "There's a Sound Coming From Inside the Trash Can! 😱😂 Animal Hospital (Anomaly) #3danimation",
           "id": "SChRvcO7EVw",
-          "views": 2107357,
+          "views": 2107382,
           "channel": "BMuMAnimation",
           "thumb": "https://i.ytimg.com/vi/SChRvcO7EVw/mqdefault.jpg"
         },
@@ -281,13 +283,13 @@
         "name": "Until Dawn",
         "known": false,
         "videos": 2,
-        "views": 1941938,
-        "likes": 34004,
+        "views": 1942089,
+        "likes": 34009,
         "channels": 2,
         "top": {
           "title": "Until Dawn 2 - Choice & Consequence Pre-Order Trailer | PS5 Games",
           "id": "-wjhso38sAY",
-          "views": 1126690,
+          "views": 1126735,
           "channel": "PlayStation",
           "thumb": "https://i.ytimg.com/vi/-wjhso38sAY/mqdefault.jpg"
         },
@@ -302,13 +304,13 @@
         "name": "Halloween",
         "known": false,
         "videos": 2,
-        "views": 1677106,
-        "likes": 25427,
+        "views": 1677388,
+        "likes": 25429,
         "channels": 2,
         "top": {
           "title": "Halloween: The Game - Before You Buy",
           "id": "69cTZz1a5rA",
-          "views": 861977,
+          "views": 862074,
           "channel": "gameranx",
           "thumb": "https://i.ytimg.com/vi/69cTZz1a5rA/mqdefault.jpg"
         },
@@ -323,8 +325,8 @@
         "name": "Tiny Anomaly VS Ticks",
         "known": false,
         "videos": 2,
-        "views": 961220,
-        "likes": 2285,
+        "views": 961224,
+        "likes": 2286,
         "channels": 2,
         "top": {
           "title": "Tiny Anomaly VS Ticks!",
@@ -344,13 +346,13 @@
         "name": "Animal Hospital",
         "known": false,
         "videos": 2,
-        "views": 919729,
+        "views": 919767,
         "likes": 8938,
         "channels": 2,
         "top": {
           "title": "ANIMAL HOSPITAL, BUT THE ANOMALIES ARE FRIENDLY!? (All episodes) Roblox Animation",
           "id": "4lbVpCsz2Zw",
-          "views": 696941,
+          "views": 696970,
           "channel": "MrSamBoost",
           "thumb": "https://i.ytimg.com/vi/4lbVpCsz2Zw/mqdefault.jpg"
         },
@@ -365,13 +367,13 @@
         "name": "Don't Open",
         "known": false,
         "videos": 2,
-        "views": 909580,
-        "likes": 21041,
+        "views": 909656,
+        "likes": 21043,
         "channels": 2,
         "top": {
           "title": "DON'T OPEN THE DOOR in Roblox Home Alone!",
           "id": "2p2QEmcDEmk",
-          "views": 872849,
+          "views": 872913,
           "channel": "ItsFunneh",
           "thumb": "https://i.ytimg.com/vi/2p2QEmcDEmk/mqdefault.jpg"
         },
@@ -386,13 +388,13 @@
         "name": "Phasmophobia",
         "known": true,
         "videos": 1,
-        "views": 2929967,
+        "views": 2929971,
         "likes": 55684,
         "channels": 1,
         "top": {
           "title": "Ghost Hunting in Phasmophobia with OG Gang🛑 (Charity for Nepal & Odisha)",
           "id": "0Zvugg112RY",
-          "views": 2929967,
+          "views": 2929971,
           "channel": "Live Insaan",
           "thumb": "https://i.ytimg.com/vi/0Zvugg112RY/mqdefault.jpg"
         },
@@ -407,13 +409,13 @@
         "name": "Guess",
         "known": false,
         "videos": 2,
-        "views": 496949,
-        "likes": 18549,
+        "views": 496969,
+        "likes": 18551,
         "channels": 2,
         "top": {
           "title": "Guess This Free Fire Location #freefireclips",
           "id": "cM6RL0ykISE",
-          "views": 321890,
+          "views": 321892,
           "channel": "Nafar Games",
           "thumb": "https://i.ytimg.com/vi/cM6RL0ykISE/mqdefault.jpg"
         },
@@ -449,13 +451,13 @@
         "name": "I'm",
         "known": false,
         "videos": 2,
-        "views": 329357,
-        "likes": 9714,
+        "views": 329359,
+        "likes": 9716,
         "channels": 2,
         "top": {
           "title": "I'm playing a horror game, so why has it got me like this????",
           "id": "fx5NGtmOVuQ",
-          "views": 327009,
+          "views": 327011,
           "channel": "8-BitRyan",
           "thumb": "https://i.ytimg.com/vi/fx5NGtmOVuQ/mqdefault.jpg"
         },
@@ -470,13 +472,13 @@
         "name": "Analog",
         "known": false,
         "videos": 2,
-        "views": 300030,
+        "views": 300040,
         "likes": 5349,
         "channels": 2,
         "top": {
           "title": "Analog Horror The Parallel Entities Explained in 8 Minutes",
           "id": "XFLQs8EHsSY",
-          "views": 160219,
+          "views": 160229,
           "channel": "M Simplified",
           "thumb": "https://i.ytimg.com/vi/XFLQs8EHsSY/mqdefault.jpg"
         },
@@ -512,13 +514,13 @@
         "name": "House",
         "known": false,
         "videos": 2,
-        "views": 255931,
+        "views": 255942,
         "likes": 2233,
         "channels": 2,
         "top": {
           "title": "Trying House of Locust 🤣 #roblox #horrorgame",
           "id": "wMATlz2Ovus",
-          "views": 211899,
+          "views": 211910,
           "channel": "Jana Caubang",
           "thumb": "https://i.ytimg.com/vi/wMATlz2Ovus/mqdefault.jpg"
         },
@@ -554,13 +556,13 @@
         "name": "Find",
         "known": false,
         "videos": 2,
-        "views": 118743,
+        "views": 118746,
         "likes": 2556,
         "channels": 2,
         "top": {
           "title": "Can I Find Every Anomaly IN MY SCHOOL?!",
           "id": "7wvLKrIqbF8",
-          "views": 116050,
+          "views": 116055,
           "channel": "The Frustrated Gamer",
           "thumb": "https://i.ytimg.com/vi/7wvLKrIqbF8/mqdefault.jpg"
         },
@@ -575,13 +577,13 @@
         "name": "Should",
         "known": false,
         "videos": 2,
-        "views": 104176,
+        "views": 104201,
         "likes": 1911,
         "channels": 2,
         "top": {
           "title": "I Should Not Have Gone to This Resort",
           "id": "rnTyexCL2gw",
-          "views": 76813,
+          "views": 76836,
           "channel": "Insym",
           "thumb": "https://i.ytimg.com/vi/rnTyexCL2gw/mqdefault.jpg"
         },
@@ -596,13 +598,13 @@
         "name": "Angry Munci Nextbot",
         "known": false,
         "videos": 2,
-        "views": 81644,
+        "views": 81652,
         "likes": 420,
         "channels": 2,
         "top": {
           "title": "Angry Munci Nextbot in Gmod Liminal Hotel",
           "id": "mtEU-wwBaZQ",
-          "views": 42141,
+          "views": 42149,
           "channel": "Tyutsik Gmod TV",
           "thumb": "https://i.ytimg.com/vi/mtEU-wwBaZQ/mqdefault.jpg"
         },
@@ -638,13 +640,13 @@
         "name": "I'm on Observation Duty",
         "known": true,
         "videos": 1,
-        "views": 208605,
+        "views": 208606,
         "likes": 7401,
         "channels": 1,
         "top": {
           "title": "【ホラーゲーム】ヴォルタでやれば怖くない…？協力して異常を見つけろ！【I'm on Observation Duty 8】 #VOLTACTION",
           "id": "_ashbVw87fI",
-          "views": 208605,
+          "views": 208606,
           "channel": "VOLTACTION",
           "thumb": "https://i.ytimg.com/vi/_ashbVw87fI/mqdefault.jpg"
         },
@@ -680,13 +682,13 @@
         "name": "Stigmatized Property",
         "known": true,
         "videos": 1,
-        "views": 142051,
+        "views": 142066,
         "likes": 1693,
         "channels": 1,
         "top": {
           "title": "Playing a Realistic New Japanese Observation Duty Game - Japan Stigmatized Property 3 LIVE 🔴",
           "id": "ZJQ2I8zq78c",
-          "views": 142051,
+          "views": 142066,
           "channel": "Insym",
           "thumb": "https://i.ytimg.com/vi/ZJQ2I8zq78c/mqdefault.jpg"
         },
@@ -722,13 +724,13 @@
         "name": "Parasocial",
         "known": true,
         "videos": 2,
-        "views": 4782,
+        "views": 4787,
         "likes": 237,
         "channels": 2,
         "top": {
           "title": "LIFE OF A FEMALE STREAMER! 📱👀 | Parasocial Horror Game",
           "id": "NOil38l0cp0",
-          "views": 2640,
+          "views": 2645,
           "channel": "PyarSM",
           "thumb": "https://i.ytimg.com/vi/NOil38l0cp0/mqdefault.jpg"
         },
@@ -743,13 +745,13 @@
         "name": "Murder House",
         "known": true,
         "videos": 1,
-        "views": 11055,
-        "likes": 242,
+        "views": 11061,
+        "likes": 243,
         "channels": 1,
         "top": {
           "title": "The Murder House Book Is DARKER Than The Game",
           "id": "nZq6q5aGyfA",
-          "views": 11055,
+          "views": 11061,
           "channel": "ParanoiaSamu",
           "thumb": "https://i.ytimg.com/vi/nZq6q5aGyfA/mqdefault.jpg"
         },
@@ -785,13 +787,13 @@
         "name": "Fears to Fathom",
         "known": true,
         "videos": 1,
-        "views": 4008,
+        "views": 4012,
         "likes": 53,
         "channels": 1,
         "top": {
           "title": "Fears to Fathom - Ironbark Lookout (VHS Effect OFF) | Full Game | All Achievements",
           "id": "5Tfcz8i5yTY",
-          "views": 4008,
+          "views": 4012,
           "channel": "flawless victory",
           "thumb": "https://i.ytimg.com/vi/5Tfcz8i5yTY/mqdefault.jpg"
         },
@@ -827,13 +829,13 @@
         "name": "Nun Massacre",
         "known": true,
         "videos": 1,
-        "views": 3035,
+        "views": 3039,
         "likes": 97,
         "channels": 1,
         "top": {
           "title": "Nun Massacre was so peak bro #coryxkenshin #puppetcombo",
           "id": "8zb-SWsxQ0A",
-          "views": 3035,
+          "views": 3039,
           "channel": "SkyDiverAD ",
           "thumb": "https://i.ytimg.com/vi/8zb-SWsxQ0A/mqdefault.jpg"
         },
@@ -869,13 +871,13 @@
         "name": "Captured",
         "known": true,
         "videos": 1,
-        "views": 2976,
+        "views": 2987,
         "likes": 24,
         "channels": 1,
         "top": {
           "title": "He was the Best Seat in the house #captured2 #gaming #games #gameplay",
           "id": "62064jwHZ18",
-          "views": 2976,
+          "views": 2987,
           "channel": "SneakyHippo",
           "thumb": "https://i.ytimg.com/vi/62064jwHZ18/mqdefault.jpg"
         },
@@ -908,7 +910,7 @@
         "score": 39
       }
     ],
-    "videoCount": 655,
+    "videoCount": 658,
     "topVideos": [
       {
         "id": "JNPiC27zgIo",
@@ -916,8 +918,8 @@
         "channel": "Jilllby",
         "channelId": "UCFjWaTOnyxvEDzBka4Dto2g",
         "published": "2026-08-27T23:00:27Z",
-        "views": 11265811,
-        "likes": 75644,
+        "views": 11266534,
+        "likes": 75666,
         "comments": 128,
         "thumb": "https://i.ytimg.com/vi/JNPiC27zgIo/mqdefault.jpg"
       },
@@ -927,21 +929,10 @@
         "channel": "Jilllby",
         "channelId": "UCFjWaTOnyxvEDzBka4Dto2g",
         "published": "2026-08-30T13:00:09Z",
-        "views": 8215028,
-        "likes": 33644,
+        "views": 8215354,
+        "likes": 33646,
         "comments": 44,
         "thumb": "https://i.ytimg.com/vi/bgHy3xD7vwo/mqdefault.jpg"
-      },
-      {
-        "id": "ujUTR-Wx7JU",
-        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #ishowspeed #short #horrorr",
-        "channel": "XO GAMING YT",
-        "channelId": "UCbD7zsdB2aS-uyobR2wgCeA",
-        "published": "2026-08-30T18:35:57Z",
-        "views": 7838046,
-        "likes": 7723,
-        "comments": 2,
-        "thumb": "https://i.ytimg.com/vi/ujUTR-Wx7JU/mqdefault.jpg"
       },
       {
         "id": "EsfVBbeya9k",
@@ -955,37 +946,15 @@
         "thumb": "https://i.ytimg.com/vi/EsfVBbeya9k/mqdefault.jpg"
       },
       {
-        "id": "lmMzzKfcFiQ",
-        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #ishowspeed #short #horrorr",
-        "channel": "XO GAMING YT",
-        "channelId": "UCbD7zsdB2aS-uyobR2wgCeA",
-        "published": "2026-09-05T15:29:08Z",
-        "views": 6771415,
-        "likes": 7810,
-        "comments": 3,
-        "thumb": "https://i.ytimg.com/vi/lmMzzKfcFiQ/mqdefault.jpg"
-      },
-      {
         "id": "Yr8zbDcELRM",
         "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #ishowspeed #short #horrorr",
         "channel": "XO GAMING YT",
         "channelId": "UCbD7zsdB2aS-uyobR2wgCeA",
         "published": "2026-09-05T03:28:12Z",
-        "views": 6771122,
+        "views": 6771121,
         "likes": 6151,
         "comments": 4,
         "thumb": "https://i.ytimg.com/vi/Yr8zbDcELRM/mqdefault.jpg"
-      },
-      {
-        "id": "cHr6PI_s2xQ",
-        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #ishowspeed #short #horrorr",
-        "channel": "XO GAMING YT",
-        "channelId": "UCbD7zsdB2aS-uyobR2wgCeA",
-        "published": "2026-09-01T17:49:07Z",
-        "views": 6676754,
-        "likes": 6273,
-        "comments": 0,
-        "thumb": "https://i.ytimg.com/vi/cHr6PI_s2xQ/mqdefault.jpg"
       },
       {
         "id": "hhChhR29-bQ",
@@ -993,32 +962,10 @@
         "channel": "XO GAMING YT",
         "channelId": "UCbD7zsdB2aS-uyobR2wgCeA",
         "published": "2026-09-05T07:00:32Z",
-        "views": 6647763,
+        "views": 6644331,
         "likes": 7087,
         "comments": 0,
         "thumb": "https://i.ytimg.com/vi/hhChhR29-bQ/mqdefault.jpg"
-      },
-      {
-        "id": "JyVBIpfk5h8",
-        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #ishowspeed #short #horrorr",
-        "channel": "XO GAMING YT",
-        "channelId": "UCbD7zsdB2aS-uyobR2wgCeA",
-        "published": "2026-09-04T14:33:39Z",
-        "views": 6119849,
-        "likes": 6222,
-        "comments": 3,
-        "thumb": "https://i.ytimg.com/vi/JyVBIpfk5h8/mqdefault.jpg"
-      },
-      {
-        "id": "MdVK8NnEBS4",
-        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #ishowspeed #short #horrorr",
-        "channel": "XO GAMING YT",
-        "channelId": "UCbD7zsdB2aS-uyobR2wgCeA",
-        "published": "2026-09-04T06:28:30Z",
-        "views": 5295919,
-        "likes": 5565,
-        "comments": 3,
-        "thumb": "https://i.ytimg.com/vi/MdVK8NnEBS4/mqdefault.jpg"
       },
       {
         "id": "55CPtYLQ5jc",
@@ -1026,10 +973,21 @@
         "channel": "BMuMAnimation",
         "channelId": "UCkfRCzbkcsFtyQDG5C7J7OA",
         "published": "2026-08-31T10:30:32Z",
-        "views": 5251134,
+        "views": 5251170,
         "likes": 23353,
         "comments": 29,
         "thumb": "https://i.ytimg.com/vi/55CPtYLQ5jc/mqdefault.jpg"
+      },
+      {
+        "id": "3V6Hmn0KBaU",
+        "title": "ESCAPING THE TORNADO! | FUNNEL RUNNER",
+        "channel": "Ujjwal",
+        "channelId": "UCl_vAxZpvbO-PFXdDu7EdHw",
+        "published": "2026-09-03T06:46:36Z",
+        "views": 5167523,
+        "likes": 92048,
+        "comments": 3215,
+        "thumb": "https://i.ytimg.com/vi/3V6Hmn0KBaU/mqdefault.jpg"
       },
       {
         "id": "D91eQgB2AMs",
@@ -1037,8 +995,8 @@
         "channel": "Ujjwal",
         "channelId": "UCl_vAxZpvbO-PFXdDu7EdHw",
         "published": "2026-09-01T06:30:37Z",
-        "views": 5031944,
-        "likes": 138111,
+        "views": 5031968,
+        "likes": 138113,
         "comments": 6529,
         "thumb": "https://i.ytimg.com/vi/D91eQgB2AMs/mqdefault.jpg"
       },
@@ -1059,8 +1017,8 @@
         "channel": "Lana's Life",
         "channelId": "UCvICJHzZEwb_9ckAMohAqzw",
         "published": "2026-09-04T19:19:30Z",
-        "views": 4481556,
-        "likes": 48503,
+        "views": 4484225,
+        "likes": 48528,
         "comments": 860,
         "thumb": "https://i.ytimg.com/vi/aRVPtiRT4qE/mqdefault.jpg"
       },
@@ -1070,32 +1028,10 @@
         "channel": "The Roamer Amit",
         "channelId": "UC_cecSRU92J2m-BrgbEyfSQ",
         "published": "2026-09-05T13:00:01Z",
-        "views": 4411011,
-        "likes": 94585,
-        "comments": 5306,
+        "views": 4411054,
+        "likes": 94592,
+        "comments": 5307,
         "thumb": "https://i.ytimg.com/vi/gxtoJ0bG8Qo/mqdefault.jpg"
-      },
-      {
-        "id": "qJK6ARr85Ak",
-        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #ishowspeed #short #horrorr",
-        "channel": "XO GAMING YT",
-        "channelId": "UCbD7zsdB2aS-uyobR2wgCeA",
-        "published": "2026-09-08T03:18:12Z",
-        "views": 4349082,
-        "likes": 4736,
-        "comments": 0,
-        "thumb": "https://i.ytimg.com/vi/qJK6ARr85Ak/mqdefault.jpg"
-      },
-      {
-        "id": "suWhA3rzyK8",
-        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #ishowspeed #short #horrorr",
-        "channel": "XO GAMING YT",
-        "channelId": "UCbD7zsdB2aS-uyobR2wgCeA",
-        "published": "2026-09-07T15:23:20Z",
-        "views": 4105457,
-        "likes": 5252,
-        "comments": 1,
-        "thumb": "https://i.ytimg.com/vi/suWhA3rzyK8/mqdefault.jpg"
       },
       {
         "id": "XHKJJXsKzNc",
@@ -1103,8 +1039,8 @@
         "channel": "RumiStar",
         "channelId": "UC-nIjlqyx8tJYkjhQnKfEsQ",
         "published": "2026-09-02T11:05:15Z",
-        "views": 3808269,
-        "likes": 19211,
+        "views": 3808549,
+        "likes": 19219,
         "comments": 13,
         "thumb": "https://i.ytimg.com/vi/XHKJJXsKzNc/mqdefault.jpg"
       },
@@ -1114,8 +1050,8 @@
         "channel": "Anant Rastogi",
         "channelId": "UCOrE-2VgEOJ9LTNLYu5LeEw",
         "published": "2026-09-01T08:22:56Z",
-        "views": 3792666,
-        "likes": 44962,
+        "views": 3792695,
+        "likes": 44964,
         "comments": 2785,
         "thumb": "https://i.ytimg.com/vi/yhxyMdDQf_0/mqdefault.jpg"
       },
@@ -1136,32 +1072,10 @@
         "channel": "Nu Animation",
         "channelId": "UCWepr4AvJ2Dv6ONtqsfCqpQ",
         "published": "2026-09-05T11:00:17Z",
-        "views": 3262594,
+        "views": 3262607,
         "likes": 9815,
         "comments": 9,
         "thumb": "https://i.ytimg.com/vi/fdQta375zgc/mqdefault.jpg"
-      },
-      {
-        "id": "pTF9DeE-UHM",
-        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #ishowspeed #short #horrorr",
-        "channel": "XO GAMING YT",
-        "channelId": "UCbD7zsdB2aS-uyobR2wgCeA",
-        "published": "2026-08-27T17:50:54Z",
-        "views": 3250874,
-        "likes": 3920,
-        "comments": 3,
-        "thumb": "https://i.ytimg.com/vi/pTF9DeE-UHM/mqdefault.jpg"
-      },
-      {
-        "id": "J7BSoiuoP5U",
-        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #ishowspeed #short #horrorr",
-        "channel": "XO GAMING YT",
-        "channelId": "UCbD7zsdB2aS-uyobR2wgCeA",
-        "published": "2026-08-29T16:36:00Z",
-        "views": 3199787,
-        "likes": 3654,
-        "comments": 3,
-        "thumb": "https://i.ytimg.com/vi/J7BSoiuoP5U/mqdefault.jpg"
       },
       {
         "id": "sGhPkAB8AR4",
@@ -1169,7 +1083,7 @@
         "channel": "BMuMAnimation",
         "channelId": "UCkfRCzbkcsFtyQDG5C7J7OA",
         "published": "2026-09-02T10:30:26Z",
-        "views": 3131679,
+        "views": 3131772,
         "likes": 7629,
         "comments": 4,
         "thumb": "https://i.ytimg.com/vi/sGhPkAB8AR4/mqdefault.jpg"
@@ -1180,8 +1094,8 @@
         "channel": "°Kelly da Cheetah°",
         "channelId": "UCoywfG5l_qKIsihk17fq9Cg",
         "published": "2026-09-04T18:39:52Z",
-        "views": 3118355,
-        "likes": 66019,
+        "views": 3119483,
+        "likes": 66049,
         "comments": 1654,
         "thumb": "https://i.ytimg.com/vi/BripO3Lo_rY/mqdefault.jpg"
       },
@@ -1197,23 +1111,12 @@
         "thumb": "https://i.ytimg.com/vi/3ktt5AadM9Y/mqdefault.jpg"
       },
       {
-        "id": "OYZhCbYi5tQ",
-        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #ishowspeed #short #horrorr",
-        "channel": "XO GAMING YT",
-        "channelId": "UCbD7zsdB2aS-uyobR2wgCeA",
-        "published": "2026-08-28T04:52:08Z",
-        "views": 2952129,
-        "likes": 2423,
-        "comments": 0,
-        "thumb": "https://i.ytimg.com/vi/OYZhCbYi5tQ/mqdefault.jpg"
-      },
-      {
         "id": "0Zvugg112RY",
         "title": "Ghost Hunting in Phasmophobia with OG Gang🛑 (Charity for Nepal & Odisha)",
         "channel": "Live Insaan",
         "channelId": "UCFwKgzKe-EdTz83r6wzhmOw",
         "published": "2026-08-30T19:12:12Z",
-        "views": 2929967,
+        "views": 2929971,
         "likes": 55684,
         "comments": 1149,
         "thumb": "https://i.ytimg.com/vi/0Zvugg112RY/mqdefault.jpg"
@@ -1224,8 +1127,8 @@
         "channel": "PlayStation",
         "channelId": "UC-2Y8dQb0S6DtpxNgAKoJKA",
         "published": "2026-09-03T14:58:43Z",
-        "views": 2876057,
-        "likes": 42297,
+        "views": 2876092,
+        "likes": 42298,
         "comments": 4090,
         "thumb": "https://i.ytimg.com/vi/dcTYz_mJpkU/mqdefault.jpg"
       },
@@ -1239,6 +1142,105 @@
         "likes": 0,
         "comments": 0,
         "thumb": "https://i.ytimg.com/vi/Zu3EIeWyzjY/mqdefault.jpg"
+      },
+      {
+        "id": "rGnc19oIo5Q",
+        "title": "I Opened a Photo Studio But the Customers are Shapeshifters (Photomaly Horror Game)",
+        "channel": "Live Insaan",
+        "channelId": "UCFwKgzKe-EdTz83r6wzhmOw",
+        "published": "2026-08-27T14:15:00Z",
+        "views": 2867345,
+        "likes": 50367,
+        "comments": 5050,
+        "thumb": "https://i.ytimg.com/vi/rGnc19oIo5Q/mqdefault.jpg"
+      },
+      {
+        "id": "2XUfisOLhV0",
+        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #short #horror",
+        "channel": "Jansy horror live",
+        "channelId": "UC9uaXvyL0VRjclKRx34bHkw",
+        "published": "2026-09-06T08:17:07Z",
+        "views": 2812326,
+        "likes": 0,
+        "comments": 0,
+        "thumb": "https://i.ytimg.com/vi/2XUfisOLhV0/mqdefault.jpg"
+      },
+      {
+        "id": "CMf4517DAio",
+        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #short #horror",
+        "channel": "Jansy horror live",
+        "channelId": "UC9uaXvyL0VRjclKRx34bHkw",
+        "published": "2026-09-09T12:43:45Z",
+        "views": 2787780,
+        "likes": 0,
+        "comments": 1,
+        "thumb": "https://i.ytimg.com/vi/CMf4517DAio/mqdefault.jpg"
+      },
+      {
+        "id": "Ft5-N3TAxyM",
+        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #short #horror",
+        "channel": "Jansy horror live",
+        "channelId": "UC9uaXvyL0VRjclKRx34bHkw",
+        "published": "2026-08-27T12:59:17Z",
+        "views": 2741071,
+        "likes": 3446,
+        "comments": 0,
+        "thumb": "https://i.ytimg.com/vi/Ft5-N3TAxyM/mqdefault.jpg"
+      },
+      {
+        "id": "5K_1uR_KOEU",
+        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #ishowspeed #short #horrorr",
+        "channel": "XO GAMING YT",
+        "channelId": "UCbD7zsdB2aS-uyobR2wgCeA",
+        "published": "2026-09-01T22:46:34Z",
+        "views": 2709561,
+        "likes": 2862,
+        "comments": 1,
+        "thumb": "https://i.ytimg.com/vi/5K_1uR_KOEU/mqdefault.jpg"
+      },
+      {
+        "id": "tnscytkyE_o",
+        "title": "I Opened a Hospital with Harshit to Treat Haunted Patients (Night at Infirmary Horror)",
+        "channel": "Live Insaan",
+        "channelId": "UCFwKgzKe-EdTz83r6wzhmOw",
+        "published": "2026-08-31T13:30:39Z",
+        "views": 2669177,
+        "likes": 47263,
+        "comments": 3608,
+        "thumb": "https://i.ytimg.com/vi/tnscytkyE_o/mqdefault.jpg"
+      },
+      {
+        "id": "oMqJwXk0sUY",
+        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #short #horror",
+        "channel": "Jansy horror live",
+        "channelId": "UC9uaXvyL0VRjclKRx34bHkw",
+        "published": "2026-08-28T11:21:27Z",
+        "views": 2650393,
+        "likes": 0,
+        "comments": 0,
+        "thumb": "https://i.ytimg.com/vi/oMqJwXk0sUY/mqdefault.jpg"
+      },
+      {
+        "id": "LVgJcROtgEY",
+        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #short #horror",
+        "channel": "Jansy horror live",
+        "channelId": "UC9uaXvyL0VRjclKRx34bHkw",
+        "published": "2026-09-01T11:06:33Z",
+        "views": 2625008,
+        "likes": 0,
+        "comments": 0,
+        "thumb": "https://i.ytimg.com/vi/LVgJcROtgEY/mqdefault.jpg"
+      },
+      {
+        "id": "s4aE00sZAcg",
+        "title": "Granny Live || Granny Horror Gameplay #granny #shortslive #shortsfeed #short #horror",
+        "channel": "Jansy horror live",
+        "channelId": "UC9uaXvyL0VRjclKRx34bHkw",
+        "published": "2026-09-09T13:30:33Z",
+        "views": 2610773,
+        "likes": 0,
+        "comments": 0,
+        "thumb": "https://i.ytimg.com/vi/s4aE00sZAcg/mqdefault.jpg"
       }
     ],
     "lookbackDays": 14
@@ -4395,24 +4397,6 @@
       "score": 18
     },
     {
-      "id": "1644851",
-      "name": "Cold Front",
-      "url": "https://racheldrawsthis.itch.io/cold-front",
-      "author": "racheldrawsthis",
-      "blurb": "A short RPG horror/story game about unstable friendships and blizzards in july",
-      "price": "Free",
-      "thumb": "https://img.itch.zone/aW1nLzk2ODczMTIucG5n/315x250%23c/in3D2N.png",
-      "platforms": [],
-      "feeds": [
-        "popular",
-        "top-rated"
-      ],
-      "isNew": true,
-      "covered": null,
-      "feedScore": 3,
-      "score": 18
-    },
-    {
       "id": "3480431",
       "name": "Where Eternity Sleeps",
       "url": "https://livingslime.itch.io/where-eternity-sleeps",
@@ -4431,13 +4415,13 @@
       "score": 18
     },
     {
-      "id": "1711691",
-      "name": "Elevator Hitch",
-      "url": "https://racheldrawsthis.itch.io/elevator-hitch",
+      "id": "1644851",
+      "name": "Cold Front",
+      "url": "https://racheldrawsthis.itch.io/cold-front",
       "author": "racheldrawsthis",
-      "blurb": "70s office elevator themed surreal horror/escape room visual novel",
+      "blurb": "A short RPG horror/story game about unstable friendships and blizzards in july",
       "price": "Free",
-      "thumb": "https://img.itch.zone/aW1nLzEwMTM5MjUxLnBuZw==/315x250%23c/tItICn.png",
+      "thumb": "https://img.itch.zone/aW1nLzk2ODczMTIucG5n/315x250%23c/in3D2N.png",
       "platforms": [],
       "feeds": [
         "popular",
@@ -4681,13 +4665,13 @@
       "score": 13
     },
     {
-      "id": "1420356",
-      "name": "Cleaning Redville",
-      "url": "https://dopplerghost.itch.io/cleaning-redville",
-      "author": "DopplerGhost",
-      "blurb": "A short horror game about cleaning a dangerous town.",
+      "id": "1111002",
+      "name": "Fears to Fathom - Home Alone",
+      "url": "https://rayll.itch.io/fears-to-fathom",
+      "author": "Rayll",
+      "blurb": "Unsettling Home Invasion Horror",
       "price": "Free",
-      "thumb": "https://img.itch.zone/aW1nLzgyODU1ODEuZ2lm/315x250%23c/Aea61e.gif",
+      "thumb": "https://img.itch.zone/aW1nLzY0MjA1NTcuZ2lm/315x250%23c/MuY%2Fxr.gif",
       "platforms": [],
       "feeds": [
         "popular"
@@ -4705,6 +4689,23 @@
       "blurb": "Cook food and unravel your family's dark past...",
       "price": "Free",
       "thumb": "https://img.itch.zone/aW1nLzI5NDc3MjMzLnBuZw==/315x250%23c/CLIGpQ.png",
+      "platforms": [],
+      "feeds": [
+        "popular"
+      ],
+      "isNew": true,
+      "covered": null,
+      "feedScore": 2,
+      "score": 13
+    },
+    {
+      "id": "1420356",
+      "name": "Cleaning Redville",
+      "url": "https://dopplerghost.itch.io/cleaning-redville",
+      "author": "DopplerGhost",
+      "blurb": "A short horror game about cleaning a dangerous town.",
+      "price": "Free",
+      "thumb": "https://img.itch.zone/aW1nLzgyODU1ODEuZ2lm/315x250%23c/Aea61e.gif",
       "platforms": [],
       "feeds": [
         "popular"
@@ -4759,44 +4760,6 @@
       "price": "Free",
       "thumb": "https://img.itch.zone/aW1nLzI0MDAyMzExLnBuZw==/315x250%23c/iHHotf.png",
       "platforms": [],
-      "feeds": [
-        "popular"
-      ],
-      "isNew": true,
-      "covered": null,
-      "feedScore": 2,
-      "score": 13
-    },
-    {
-      "id": "1607077",
-      "name": "Trapped with Jester",
-      "url": "https://ant-san.itch.io/jester",
-      "author": "Anta",
-      "blurb": "You wake up in a carriage with an annoying stranger...",
-      "price": "Free",
-      "thumb": "https://img.itch.zone/aW1nLzk2NDE4MDMuZ2lm/315x250%23c/oihcS8.gif",
-      "platforms": [
-        "web"
-      ],
-      "feeds": [
-        "popular"
-      ],
-      "isNew": true,
-      "covered": null,
-      "feedScore": 2,
-      "score": 13
-    },
-    {
-      "id": "1218074",
-      "name": "Silver Thread : Episode I",
-      "url": "https://spicaze.itch.io/silver-thread",
-      "author": "Spica",
-      "blurb": "A skeptical exorcist and an odd encounter.",
-      "price": "Free",
-      "thumb": "https://img.itch.zone/aW1nLzI5Njk3NTU1LnBuZw==/315x250%23c/%2BxoIhY.png",
-      "platforms": [
-        "web"
-      ],
       "feeds": [
         "popular"
       ],
@@ -4908,6 +4871,25 @@
       "score": 13
     },
     {
+      "id": "1607077",
+      "name": "Trapped with Jester",
+      "url": "https://ant-san.itch.io/jester",
+      "author": "Anta",
+      "blurb": "You wake up in a carriage with an annoying stranger...",
+      "price": "Free",
+      "thumb": "https://img.itch.zone/aW1nLzk2NDE4MDMuZ2lm/315x250%23c/oihcS8.gif",
+      "platforms": [
+        "web"
+      ],
+      "feeds": [
+        "popular"
+      ],
+      "isNew": true,
+      "covered": null,
+      "feedScore": 2,
+      "score": 13
+    },
+    {
       "id": "3183612",
       "name": "Lacey's Flash Games",
       "url": "https://laceysflashgames.itch.io/laceys-flash-games",
@@ -4925,14 +4907,16 @@
       "score": 13
     },
     {
-      "id": "1212963",
-      "name": "Stillwater",
-      "url": "https://studioclump.itch.io/stillwater",
-      "author": "Studio Clump",
-      "blurb": "Private Investigator Hugo Laurent, gets reeled into a murky mystery entangled in lies, secrets, and a family curse.",
+      "id": "1218074",
+      "name": "Silver Thread : Episode I",
+      "url": "https://spicaze.itch.io/silver-thread",
+      "author": "Spica",
+      "blurb": "A skeptical exorcist and an odd encounter.",
       "price": "Free",
-      "thumb": "https://img.itch.zone/aW1nLzcxMDA5MTIuZ2lm/315x250%23c/j9dbzE.gif",
-      "platforms": [],
+      "thumb": "https://img.itch.zone/aW1nLzI5Njk3NTU1LnBuZw==/315x250%23c/%2BxoIhY.png",
+      "platforms": [
+        "web"
+      ],
       "feeds": [
         "popular"
       ],
@@ -4949,6 +4933,40 @@
       "blurb": "PSX-style horror game where you manage a photo studio.",
       "price": "Free",
       "thumb": "https://img.itch.zone/aW1nLzI1MTkzNDAxLnBuZw==/315x250%23c/U6JeOz.png",
+      "platforms": [],
+      "feeds": [
+        "popular"
+      ],
+      "isNew": true,
+      "covered": null,
+      "feedScore": 2,
+      "score": 13
+    },
+    {
+      "id": "4531133",
+      "name": "My night survival",
+      "url": "https://lowula.itch.io/my-night-survival",
+      "author": "LowuLa",
+      "blurb": "",
+      "price": "Free",
+      "thumb": "https://img.itch.zone/aW1nLzI5MTg2NzQ4LnBuZw==/315x250%23c/we6enx.png",
+      "platforms": [],
+      "feeds": [
+        "popular"
+      ],
+      "isNew": true,
+      "covered": null,
+      "feedScore": 2,
+      "score": 13
+    },
+    {
+      "id": "3163336",
+      "name": "Welcome Home",
+      "url": "https://stalker-studios.itch.io/welcome-home",
+      "author": "Stalker Studios",
+      "blurb": "Where home feels wrong, and you’re anything but welcome.",
+      "price": "Free",
+      "thumb": "https://img.itch.zone/aW1nLzE4ODkyMzA5LnBuZw==/315x250%23c/NyOVTc.png",
       "platforms": [],
       "feeds": [
         "popular"
@@ -5003,6 +5021,23 @@
       "platforms": [
         "web"
       ],
+      "feeds": [
+        "top-rated"
+      ],
+      "isNew": true,
+      "covered": null,
+      "feedScore": 2,
+      "score": 13
+    },
+    {
+      "id": "1711691",
+      "name": "Elevator Hitch",
+      "url": "https://racheldrawsthis.itch.io/elevator-hitch",
+      "author": "racheldrawsthis",
+      "blurb": "70s office elevator themed surreal horror/escape room visual novel",
+      "price": "Free",
+      "thumb": "https://img.itch.zone/aW1nLzEwMTM5MjUxLnBuZw==/315x250%23c/tItICn.png",
+      "platforms": [],
       "feeds": [
         "top-rated"
       ],
@@ -5541,7 +5576,649 @@
     }
   ],
   "steam": {
-    "upcoming": [],
-    "newReleases": []
+    "upcoming": [
+      {
+        "appid": "2499540",
+        "name": "Selection Kingdom: Level 1 - Limited -",
+        "url": "https://store.steampowered.com/app/2499540/Selection_Kingdom_Level_1__Limited/",
+        "released": "Sep 10, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "3886200",
+        "name": "BrokenLore: DON’T LIE",
+        "url": "https://store.steampowered.com/app/3886200/BrokenLore_DONT_LIE/",
+        "released": "Sep 10, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4932770",
+        "name": "DOGEZA",
+        "url": "https://store.steampowered.com/app/4932770/DOGEZA/",
+        "released": "Sep 10, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4951500",
+        "name": "ANOMALOGIST: Inumaki Manor",
+        "url": "https://store.steampowered.com/app/4951500/ANOMALOGIST_Inumaki_Manor/",
+        "released": "Sep 10, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "3195440",
+        "name": "Welcome to Elderfield",
+        "url": "https://store.steampowered.com/app/3195440/Welcome_to_Elderfield/",
+        "released": "Sep 10, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "3275050",
+        "name": "Ex Sanguis",
+        "url": "https://store.steampowered.com/app/3275050/Ex_Sanguis/",
+        "released": "Sep 10, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "3954460",
+        "name": "Spiritus Sancti",
+        "url": "https://store.steampowered.com/app/3954460/Spiritus_Sancti/",
+        "released": "Sep 10, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4147170",
+        "name": "Late Order",
+        "url": "https://store.steampowered.com/app/4147170/Late_Order/",
+        "released": "Sep 10, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4262620",
+        "name": "The Alighieri Circle: Dante's Bloodline",
+        "url": "https://store.steampowered.com/app/4262620/The_Alighieri_Circle_Dantes_Bloodline/",
+        "released": "Sep 10, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "3874890",
+        "name": "Riruri Tachibana : Reincarnated",
+        "url": "https://store.steampowered.com/app/3874890/Riruri_Tachibana__Reincarnated/",
+        "released": "Sep 10, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "5071920",
+        "name": "Temple 13 - Time Collapse",
+        "url": "https://store.steampowered.com/app/5071920/Temple_13__Time_Collapse/",
+        "released": "Sep 10, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "3182010",
+        "name": "Mad Mads Madsen",
+        "url": "https://store.steampowered.com/app/3182010/Mad_Mads_Madsen/",
+        "released": "Sep 11, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "5023030",
+        "name": "Clipped Reality",
+        "url": "https://store.steampowered.com/app/5023030/Clipped_Reality/",
+        "released": "Sep 11, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4982260",
+        "name": "Loop 9",
+        "url": "https://store.steampowered.com/app/4982260/Loop_9/",
+        "released": "Sep 11, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "3998990",
+        "name": "Deep Sheol",
+        "url": "https://store.steampowered.com/app/3998990/Deep_Sheol/",
+        "released": "Sep 11, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "3978760",
+        "name": "Antscape Room",
+        "url": "https://store.steampowered.com/app/3978760/Antscape_Room/",
+        "released": "Sep 11, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4287480",
+        "name": "Backrooms Protocol",
+        "url": "https://store.steampowered.com/app/4287480/Backrooms_Protocol/",
+        "released": "Sep 11, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4635270",
+        "name": "EXITRANCE",
+        "url": "https://store.steampowered.com/app/4635270/EXITRANCE/",
+        "released": "Sep 11, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4354460",
+        "name": "Survivor's Notes",
+        "url": "https://store.steampowered.com/app/4354460/Survivors_Notes/",
+        "released": "Sep 11, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "2351740",
+        "name": "CRYING BOOTH",
+        "url": "https://store.steampowered.com/app/2351740/CRYING_BOOTH/",
+        "released": "Sep 11, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "2735030",
+        "name": "Haunted Shift",
+        "url": "https://store.steampowered.com/app/2735030/Haunted_Shift/",
+        "released": "Sep 13, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "3711100",
+        "name": "Depth of Mind",
+        "url": "https://store.steampowered.com/app/3711100/Depth_of_Mind/",
+        "released": "Sep 14, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4538140",
+        "name": "Rehaunted",
+        "url": "https://store.steampowered.com/app/4538140/Rehaunted/",
+        "released": "Sep 14, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4311570",
+        "name": "Sewer",
+        "url": "https://store.steampowered.com/app/4311570/Sewer/",
+        "released": "Sep 14, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4580600",
+        "name": "Animaly Bar: NO HUMANITY!",
+        "url": "https://store.steampowered.com/app/4580600/Animaly_Bar_NO_HUMANITY/",
+        "released": "Sep 14, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "3916440",
+        "name": "771",
+        "url": "https://store.steampowered.com/app/3916440/771/",
+        "released": "Sep 14, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "5034120",
+        "name": "6F: NIGHT SCHOOL LOOP∞",
+        "url": "https://store.steampowered.com/app/5034120/6F_NIGHT_SCHOOL_LOOP/",
+        "released": "Sep 15, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "2887580",
+        "name": "Active Matter",
+        "url": "https://store.steampowered.com/app/2887580/Active_Matter/",
+        "released": "Sep 15, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "5107260",
+        "name": "Sukmantos Kitchen 1990",
+        "url": "https://store.steampowered.com/app/5107260/Sukmantos_Kitchen_1990/",
+        "released": "Sep 15, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4132890",
+        "name": "Fright Train",
+        "url": "https://store.steampowered.com/app/4132890/Fright_Train/",
+        "released": "Sep 15, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "2444700",
+        "name": "The Event",
+        "url": "https://store.steampowered.com/app/2444700/The_Event/",
+        "released": "Sep 15, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4537800",
+        "name": "Snuggle Nightmare",
+        "url": "https://store.steampowered.com/app/4537800/Snuggle_Nightmare/",
+        "released": "Sep 15, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "5132730",
+        "name": "ShutterOut",
+        "url": "https://store.steampowered.com/app/5132730/ShutterOut/",
+        "released": "Sep 15, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4431460",
+        "name": "The Excavation: Beneath The Cathedral",
+        "url": "https://store.steampowered.com/app/4431460/The_Excavation_Beneath_The_Cathedral/",
+        "released": "Sep 16, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "5133880",
+        "name": "911 Dispatcher: Unknown Caller",
+        "url": "https://store.steampowered.com/app/5133880/911_Dispatcher_Unknown_Caller/",
+        "released": "Sep 16, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4655810",
+        "name": "Decide Your Fate",
+        "url": "https://store.steampowered.com/app/4655810/Decide_Your_Fate/",
+        "released": "Sep 16, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "5181540",
+        "name": "Super Clown Spookyland",
+        "url": "https://store.steampowered.com/app/5181540/Super_Clown_Spookyland/",
+        "released": "Sep 16, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "3781550",
+        "name": "Paratopic: Overdub",
+        "url": "https://store.steampowered.com/app/3781550/Paratopic_Overdub/",
+        "released": "Sep 16, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4140530",
+        "name": "The Plant Shop",
+        "url": "https://store.steampowered.com/app/4140530/The_Plant_Shop/",
+        "released": "Sep 16, 2026",
+        "price": "",
+        "reviews": ""
+      },
+      {
+        "appid": "4731830",
+        "name": "Nahualli",
+        "url": "https://store.steampowered.com/app/4731830/Nahualli/",
+        "released": "Sep 16, 2026",
+        "price": "",
+        "reviews": ""
+      }
+    ],
+    "newReleases": [
+      {
+        "appid": "3219630",
+        "name": "Halloween: The Game",
+        "url": "https://store.steampowered.com/app/3219630/Halloween_The_Game/",
+        "released": "Sep 8, 2026",
+        "price": "$39.99",
+        "reviews": "Mostly Positive"
+      },
+      {
+        "appid": "2406770",
+        "name": "Bodycam",
+        "url": "https://store.steampowered.com/app/2406770/Bodycam/",
+        "released": "Jun 7, 2024",
+        "price": "$26.65",
+        "reviews": "Mostly Positive"
+      },
+      {
+        "appid": "2638890",
+        "name": "Onimusha: Way of the Sword",
+        "url": "https://store.steampowered.com/app/2638890/Onimusha_Way_of_the_Sword/",
+        "released": "Sep 3, 2026",
+        "price": "$69.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "381210",
+        "name": "Dead by Daylight",
+        "url": "https://store.steampowered.com/app/381210/Dead_by_Daylight/",
+        "released": "Jun 14, 2016",
+        "price": "$19.99",
+        "reviews": "Mostly Positive"
+      },
+      {
+        "appid": "2139460",
+        "name": "Once Human",
+        "url": "https://store.steampowered.com/app/2139460/Once_Human/",
+        "released": "Jul 9, 2024",
+        "price": "Free",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "1144200",
+        "name": "Ready or Not",
+        "url": "https://store.steampowered.com/app/1144200/Ready_or_Not/",
+        "released": "Dec 13, 2023",
+        "price": "$24.99",
+        "reviews": "Mostly Positive"
+      },
+      {
+        "appid": "3722330",
+        "name": "Shift At Midnight",
+        "url": "https://store.steampowered.com/app/3722330/Shift_At_Midnight/",
+        "released": "Jul 22, 2026",
+        "price": "$8.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "3764200",
+        "name": "Resident Evil Requiem",
+        "url": "https://store.steampowered.com/app/3764200/Resident_Evil_Requiem/",
+        "released": "Feb 26, 2026",
+        "price": "$48.99",
+        "reviews": "Overwhelmingly Positive"
+      },
+      {
+        "appid": "2694490",
+        "name": "Path of Exile 2",
+        "url": "https://store.steampowered.com/app/2694490/Path_of_Exile_2/",
+        "released": "Dec 6, 2024",
+        "price": "$29.99",
+        "reviews": "Mostly Positive"
+      },
+      {
+        "appid": "2584270",
+        "name": "Mortal Shell II",
+        "url": "https://store.steampowered.com/app/2584270/Mortal_Shell_II/",
+        "released": "Aug 20, 2026",
+        "price": "$49.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "594650",
+        "name": "Hunt: Showdown 1896",
+        "url": "https://store.steampowered.com/app/594650/Hunt_Showdown_1896/",
+        "released": "Aug 27, 2019",
+        "price": "$11.99",
+        "reviews": "Mostly Positive"
+      },
+      {
+        "appid": "376210",
+        "name": "The Isle",
+        "url": "https://store.steampowered.com/app/376210/The_Isle/",
+        "released": "Dec 1, 2015",
+        "price": "$19.99",
+        "reviews": "Mostly Positive"
+      },
+      {
+        "appid": "202970",
+        "name": "Call of Duty®: Black Ops II",
+        "url": "https://store.steampowered.com/app/202970/Call_of_Duty_Black_Ops_II/",
+        "released": "Nov 12, 2012",
+        "price": "$19.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "3527290",
+        "name": "PEAK",
+        "url": "https://store.steampowered.com/app/3527290/PEAK/",
+        "released": "Jun 16, 2025",
+        "price": "$7.99",
+        "reviews": "Overwhelmingly Positive"
+      },
+      {
+        "appid": "2050650",
+        "name": "Resident Evil 4",
+        "url": "https://store.steampowered.com/app/2050650/Resident_Evil_4/",
+        "released": "Jan 24, 2019",
+        "price": "$9.99",
+        "reviews": "Overwhelmingly Positive"
+      },
+      {
+        "appid": "3241660",
+        "name": "R.E.P.O.",
+        "url": "https://store.steampowered.com/app/3241660/REPO/",
+        "released": "Feb 26, 2025",
+        "price": "$6.49",
+        "reviews": "Overwhelmingly Positive"
+      },
+      {
+        "appid": "739630",
+        "name": "Phasmophobia",
+        "url": "https://store.steampowered.com/app/739630/Phasmophobia/",
+        "released": "Sep 18, 2020",
+        "price": "$13.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "1151340",
+        "name": "Fallout 76",
+        "url": "https://store.steampowered.com/app/1151340/Fallout_76/",
+        "released": "Apr 14, 2020",
+        "price": "$39.99",
+        "reviews": "Mostly Positive"
+      },
+      {
+        "appid": "1962700",
+        "name": "Subnautica 2",
+        "url": "https://store.steampowered.com/app/1962700/Subnautica_2/",
+        "released": "May 14, 2026",
+        "price": "$29.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "1361210",
+        "name": "Warhammer 40,000: Darktide",
+        "url": "https://store.steampowered.com/app/1361210/Warhammer_40000_Darktide/",
+        "released": "Nov 30, 2022",
+        "price": "$39.99",
+        "reviews": "Mostly Positive"
+      },
+      {
+        "appid": "4108000",
+        "name": "Machine Party",
+        "url": "https://store.steampowered.com/app/4108000/Machine_Party/",
+        "released": "Jul 30, 2026",
+        "price": "$7.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "2661300",
+        "name": "Grounded 2",
+        "url": "https://store.steampowered.com/app/2661300/Grounded_2/",
+        "released": "Jul 29, 2025",
+        "price": "$29.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "2684630",
+        "name": "Endacopia",
+        "url": "https://store.steampowered.com/app/2684630/Endacopia/",
+        "released": "Jul 27, 2026",
+        "price": "$16.50",
+        "reviews": "Overwhelmingly Positive"
+      },
+      {
+        "appid": "668580",
+        "name": "Atomic Heart",
+        "url": "https://store.steampowered.com/app/668580/Atomic_Heart/",
+        "released": "Feb 20, 2023",
+        "price": "$11.99",
+        "reviews": "Mostly Positive"
+      },
+      {
+        "appid": "250900",
+        "name": "The Binding of Isaac: Rebirth",
+        "url": "https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/",
+        "released": "Nov 4, 2014",
+        "price": "$14.99",
+        "reviews": "Overwhelmingly Positive"
+      },
+      {
+        "appid": "1943950",
+        "name": "Escape the Backrooms",
+        "url": "https://store.steampowered.com/app/1943950/Escape_the_Backrooms/",
+        "released": "Oct 23, 2025",
+        "price": "$9.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "1304930",
+        "name": "The Outlast Trials",
+        "url": "https://store.steampowered.com/app/1304930/The_Outlast_Trials/",
+        "released": "Mar 5, 2024",
+        "price": "$39.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "1326470",
+        "name": "Sons Of The Forest",
+        "url": "https://store.steampowered.com/app/1326470/Sons_Of_The_Forest/",
+        "released": "Feb 22, 2024",
+        "price": "$29.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "42700",
+        "name": "Call of Duty®: Black Ops",
+        "url": "https://store.steampowered.com/app/42700/Call_of_Duty_Black_Ops/",
+        "released": "Nov 9, 2010",
+        "price": "$19.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "251570",
+        "name": "7 Days to Die",
+        "url": "https://store.steampowered.com/app/251570/7_Days_to_Die/",
+        "released": "Jul 25, 2024",
+        "price": "$44.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "3844970",
+        "name": "Burglin' Gnomes",
+        "url": "https://store.steampowered.com/app/3844970/Burglin_Gnomes/",
+        "released": "Jun 10, 2026",
+        "price": "$7.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "221100",
+        "name": "DayZ",
+        "url": "https://store.steampowered.com/app/221100/DayZ/",
+        "released": "Dec 13, 2018",
+        "price": "$49.99",
+        "reviews": "Mostly Positive"
+      },
+      {
+        "appid": "418370",
+        "name": "Resident Evil 7 Biohazard",
+        "url": "https://store.steampowered.com/app/418370/Resident_Evil_7_Biohazard/",
+        "released": "Jan 23, 2017",
+        "price": "$7.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "548430",
+        "name": "Deep Rock Galactic",
+        "url": "https://store.steampowered.com/app/548430/Deep_Rock_Galactic/",
+        "released": "May 13, 2020",
+        "price": "$8.99",
+        "reviews": "Overwhelmingly Positive"
+      },
+      {
+        "appid": "976730",
+        "name": "Halo: The Master Chief Collection",
+        "url": "https://store.steampowered.com/app/976730/Halo_The_Master_Chief_Collection/",
+        "released": "Dec 3, 2019",
+        "price": "$39.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "962130",
+        "name": "Grounded",
+        "url": "https://store.steampowered.com/app/962130/Grounded/",
+        "released": "Sep 27, 2022",
+        "price": "$39.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "550",
+        "name": "Left 4 Dead 2",
+        "url": "https://store.steampowered.com/app/550/Left_4_Dead_2/",
+        "released": "Nov 16, 2009",
+        "price": "$9.99",
+        "reviews": "Overwhelmingly Positive"
+      },
+      {
+        "appid": "1196590",
+        "name": "Resident Evil Village",
+        "url": "https://store.steampowered.com/app/1196590/Resident_Evil_Village/",
+        "released": "May 7, 2021",
+        "price": "$9.99",
+        "reviews": "Overwhelmingly Positive"
+      },
+      {
+        "appid": "2129530",
+        "name": "REANIMAL",
+        "url": "https://store.steampowered.com/app/2129530/REANIMAL/",
+        "released": "Feb 13, 2026",
+        "price": "$39.99",
+        "reviews": "Very Positive"
+      },
+      {
+        "appid": "262060",
+        "name": "Darkest Dungeon®",
+        "url": "https://store.steampowered.com/app/262060/Darkest_Dungeon/",
+        "released": "Jan 19, 2016",
+        "price": "$24.99",
+        "reviews": "Very Positive"
+      }
+    ]
   }
 }
