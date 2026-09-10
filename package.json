@@ -1,0 +1,17 @@
+{
+  "name": "horror-radar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily scrape of YouTube view counts and itch.io horror releases, for stream scouting.",
+  "scripts": {
+    "scrape": "node scripts/build.js",
+    "serve": "npx --yes serve docs"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
