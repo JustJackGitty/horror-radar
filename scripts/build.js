@@ -66,9 +66,53 @@ function addVelocity(games, prev) {
   });
 }
 
-function markNewItch(games, prev) {
+/**
+ * Score each itch game and cross-reference it against the YouTube data.
+ *
+ * This is the part that separates a real find from an asset flip. An itch
+ * game that YouTubers are already covering is validated by definition —
+ * that's the "came out three days ago and is starting to move" case. Being
+ * on itch's own new-and-popular or top-sellers list is the next best signal.
+ * Appearing only in raw "newest" means nothing at all.
+ */
+function scoreItch(games, ytGames, prev) {
   const before = new Set((prev?.itch || []).map(g => g.id || g.url));
-  return games.map(g => ({ ...g, isNew: !before.has(g.id || g.url) }));
+
+  // Index the YouTube rollup by normalised name so we can match against it.
+  const yt = new Map();
+  for (const g of ytGames) yt.set(key(g.name), g);
+
+  const feedWeight = Object.fromEntries(
+    config.itch.feeds.map(f => [f.name, f.weight ?? 0])
+  );
+
+  return games.map(g => {
+    const isNew = !before.has(g.id || g.url);
+
+    // Best weight across every feed this game appeared in, plus a bonus for
+    // showing up in more than one.
+    const weights = (g.feeds || []).map(f => feedWeight[f] ?? 0);
+    const feedScore = Math.max(0, ...weights) + Math.max(0, weights.length - 1);
+
+    const hit = yt.get(key(g.name));
+    const covered = hit ? {
+      views: hit.views,
+      videos: hit.videos,
+      channels: hit.channels,
+      status: hit.status
+    } : null;
+
+    // 0-100. YouTube coverage dominates; itch's own ranking is the tiebreak.
+    let score = feedScore * 5;
+    if (covered) {
+      score += 30;
+      score += Math.min(Math.log10(Math.max(covered.views, 1)) * 5, 22);
+      if (covered.status === "climbing" || covered.status === "new") score += 12;
+    }
+    if (isNew) score += 3;
+
+    return { ...g, isNew, covered, feedScore, score: Math.min(Math.round(score), 100) };
+  }).sort((a, b) => b.score - a.score);
 }
 
 async function pruneHistory() {
@@ -113,7 +157,7 @@ async function main() {
       topVideos: yt.topVideos,
       lookbackDays: config.youtube.lookbackDays
     },
-    itch: markNewItch(itch, prev),
+    itch: scoreItch(itch, games, prev),
     steam
   };
 
@@ -123,9 +167,10 @@ async function main() {
 
   const climbing = games.filter(g => g.status === "climbing").length;
   const fresh = games.filter(g => g.status === "new").length;
+  const validated = snapshot.itch.filter(g => g.covered).length;
   console.log(
     `\nDone. ${games.length} games · ${climbing} climbing · ${fresh} new · ` +
-    `${snapshot.itch.filter(g => g.isNew).length} new on itch`
+    `${snapshot.itch.length} on itch, ${validated} of them already on YouTube`
   );
 }
 
