@@ -13,22 +13,44 @@ import { collectSteam } from "./steam.js";
 
 const OUT = config.outDir;
 const HIST = path.join(OUT, "history");
+const PREV = path.join(OUT, "previous.json");
 const today = new Date().toISOString().slice(0, 10);
+
+// A baseline younger than this tells you nothing — two runs ten minutes apart
+// produce identical numbers. Below it we report "no usable baseline" instead
+// of pretending everything is steady, and we don't overwrite the good one.
+const MIN_BASELINE_HOURS = 6;
 
 const readJson = async p => {
   try { return JSON.parse(await fs.readFile(p, "utf8")); }
   catch { return null; }
 };
 
-/** Yesterday's file, or the most recent one we have. */
+/**
+ * The snapshot to measure today against.
+ *
+ * Uses a rolling previous.json rather than "yesterday's dated file", so that
+ * re-running on the same day still compares against something real instead of
+ * finding nothing and marking every game NEW.
+ */
 async function previousSnapshot() {
-  try {
-    const files = (await fs.readdir(HIST))
-      .filter(f => f.endsWith(".json") && f.slice(0, 10) < today)
-      .sort();
-    if (!files.length) return null;
-    return readJson(path.join(HIST, files[files.length - 1]));
-  } catch { return null; }
+  let prev = await readJson(PREV);
+
+  if (!prev) {
+    // No rolling file yet (first run, or upgrading from the old layout) —
+    // fall back to the newest dated snapshot from an earlier day.
+    try {
+      const files = (await fs.readdir(HIST))
+        .filter(f => f.endsWith(".json") && f.slice(0, 10) < today)
+        .sort();
+      if (files.length) prev = await readJson(path.join(HIST, files[files.length - 1]));
+    } catch {}
+  }
+
+  if (!prev?.generatedAt) return { snapshot: prev || null, ageHours: null, usable: false };
+
+  const ageHours = (Date.now() - new Date(prev.generatedAt).getTime()) / 36e5;
+  return { snapshot: prev, ageHours, usable: ageHours >= MIN_BASELINE_HOURS };
 }
 
 const key = s => s.toLowerCase().replace(/[^a-z0-9]+/g, "");
@@ -133,8 +155,18 @@ async function main() {
   }
 
   await fs.mkdir(HIST, { recursive: true });
-  const prev = await previousSnapshot();
-  console.log(prev ? `Comparing against ${prev.date}` : "No previous run — first snapshot.");
+  const base = await previousSnapshot();
+  const prev = base.usable ? base.snapshot : null;
+
+  if (prev) {
+    console.log(`Comparing against ${prev.date} (${base.ageHours.toFixed(1)}h ago)`);
+  } else if (base.snapshot) {
+    console.log(
+      `Baseline is only ${base.ageHours.toFixed(1)}h old — too fresh to mean anything. ` +
+      `Everything will read NEW until a run at least ${MIN_BASELINE_HOURS}h later.`);
+  } else {
+    console.log("No previous run — first snapshot, everything reads NEW.");
+  }
 
   console.log("YouTube:");
   const yt = await collectYouTube(apiKey);
@@ -151,6 +183,8 @@ async function main() {
     date: today,
     generatedAt: new Date().toISOString(),
     comparedTo: prev?.date || null,
+    baselineAgeHours: prev ? Math.round(base.ageHours) : null,
+    minBaselineHours: MIN_BASELINE_HOURS,
     youtube: {
       games,
       videoCount: yt.videoCount,
@@ -163,6 +197,13 @@ async function main() {
 
   await fs.writeFile(path.join(OUT, "latest.json"), JSON.stringify(snapshot, null, 2));
   await fs.writeFile(path.join(HIST, `${today}.json`), JSON.stringify(snapshot));
+
+  // Only advance the baseline if the current one has aged out. This keeps a
+  // rapid re-run from burning a perfectly good comparison point.
+  if (!base.snapshot || base.usable) {
+    await fs.writeFile(PREV, JSON.stringify(snapshot));
+  }
+
   await pruneHistory();
 
   const climbing = games.filter(g => g.status === "climbing").length;
