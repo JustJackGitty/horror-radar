@@ -42,10 +42,16 @@ export const config = {
     // Which browse pages to walk. `pages` is how many pages deep to go
     // (30 games per page). Keep it modest — be a polite scraper.
     feeds: [
-      { name: "newest",    url: "https://itch.io/games/newest/tag-horror",    pages: 3 },
-      { name: "popular",   url: "https://itch.io/games/tag-horror",           pages: 2 },
-      { name: "free",      url: "https://itch.io/games/free/tag-horror",      pages: 2 },
-      { name: "top-rated", url: "https://itch.io/games/top-rated/tag-horror", pages: 1 }
+      // Ordered by how much signal each carries. "new-and-popular" is itch's
+      // own popularity metric weighted toward recent uploads — that's the
+      // "3 days old and starting to move" bucket. Raw "newest" is a firehose
+      // of asset flips, so it's last and shallow: it's only there to catch
+      // something before itch's own ranking notices it.
+      { name: "new-and-popular", url: "https://itch.io/games/new-and-popular/tag-horror", pages: 3, weight: 3 },
+      { name: "top-sellers",     url: "https://itch.io/games/top-sellers/tag-horror",     pages: 2, weight: 3 },
+      { name: "popular",         url: "https://itch.io/games/tag-horror",                 pages: 2, weight: 2 },
+      { name: "top-rated",       url: "https://itch.io/games/top-rated/tag-horror",       pages: 1, weight: 2 },
+      { name: "newest",          url: "https://itch.io/games/newest/tag-horror",          pages: 1, weight: 0 }
     ],
     delayMs: 1200 // pause between requests
   },
