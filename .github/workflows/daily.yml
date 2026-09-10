@@ -1,0 +1,45 @@
+name: Daily scrape
+
+on:
+  schedule:
+    # 13:00 UTC = 6am Pacific. GitHub's cron can run late under load —
+    # anywhere from on time to about an hour after. That's fine for daily.
+    - cron: "0 13 * * *"
+  workflow_dispatch: {} # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - run: npm ci
+
+      - name: Scrape
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/build.js
+
+      - name: Commit results
+        run: |
+          git config user.name "horror-radar"
+          git config user.email "actions@github.com"
+          git add docs/data
+          if git diff --staged --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "data: $(date -u +%Y-%m-%d)"
+            git push
+          fi
