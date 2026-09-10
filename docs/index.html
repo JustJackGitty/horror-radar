@@ -110,6 +110,7 @@ nav{position:sticky;top:0;z-index:9;background:var(--bg);border-bottom:1px solid
 
   <section id="p-itch" class="hidden">
     <div class="bar" id="itchfilters"></div>
+    <p class="sub">Sorted by signal, not by upload time. <b>Already on YouTube</b> means the game is on itch <em>and</em> people are making videos about it &mdash; validated, and the window is open right now. <b>itch trending</b> is itch's own new-and-popular and top-sellers ranking. <b>New today</b> is unfiltered and mostly noise; it's there to catch something before anyone notices it.</p>
     <div id="itchlist"></div>
   </section>
 
@@ -128,7 +129,7 @@ nav{position:sticky;top:0;z-index:9;background:var(--bg);border-bottom:1px solid
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const n=v=>v>=1e6?(v/1e6).toFixed(1)+"M":v>=1e3?Math.round(v/1e3)+"K":String(v??0);
-let D=null, tFilter="all", iFilter="new", sFilter="upcoming";
+let D=null, tFilter="all", iFilter="covered", sFilter="upcoming";
 
 $$(".tab").forEach(t=>t.onclick=()=>{
   $$(".tab").forEach(x=>x.setAttribute("aria-selected",x===t));
@@ -168,17 +169,31 @@ function renderTrend(){
 
 function renderItch(){
   let gs=D.itch.slice();
+  if(iFilter==="covered") gs=gs.filter(g=>g.covered);
+  if(iFilter==="trending") gs=gs.filter(g=>g.feedScore>=3);
   if(iFilter==="new") gs=gs.filter(g=>g.isNew);
-  if(iFilter==="free") gs=gs.filter(g=>/free/i.test(g.price));
-  if(!gs.length){ $("#itchlist").innerHTML=`<div class="empty">Nothing matches. Try All.</div>`; return; }
-  $("#itchlist").innerHTML=gs.map(g=>`<article class="row">
+  if(!gs.length){ $("#itchlist").innerHTML=`<div class="empty">Nothing in that bucket today. Try All.</div>`; return; }
+
+  $("#itchlist").innerHTML=gs.map(g=>{
+    const c=g.covered;
+    return `<article class="row">
     <div>
-      <div class="rt"><h3><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.name)}</a></h3>${g.isNew?pill("new"):""}</div>
-      <div class="meta"><span class="dev">${esc(g.author||"unknown")}</span><span class="mono">${esc(g.price)}</span><span class="mono">${esc((g.feeds||[]).join(" · "))}</span></div>
+      <div class="rt">
+        <h3><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.name)}</a></h3>
+        ${c?pill(c.status==="climbing"||c.status==="new"?"climbing":"steady"):""}
+        ${g.isNew&&!c?pill("new"):""}
+      </div>
+      <div class="meta">
+        <span class="dev">${esc(g.author||"unknown")}</span>
+        <span class="mono">${esc(g.price)}</span>
+        <span class="mono">${esc((g.feeds||[]).filter(f=>f!=="newest").join(" · ")||"newest only")}</span>
+        <span class="score"><span class="track"><span class="fill" style="width:${g.score}%"></span></span>${g.score}</span>
+      </div>
       ${g.blurb?`<p class="blurb">${esc(g.blurb)}</p>`:""}
+      ${c?`<p class="blurb"><span class="up">Already on YouTube</span> — ${n(c.views)} views across ${c.videos} videos from ${c.channels} channel${c.channels===1?"":"s"}.</p>`:""}
     </div>
-    <div></div>
-  </article>`).join("");
+    <div class="num mono">${c?`<b>${n(c.views)}</b>yt views`:`<b>—</b>no coverage`}</div>
+  </article>`;}).join("");
 }
 
 function renderSteam(){
@@ -230,8 +245,9 @@ fetch("data/latest.json?t="+Date.now())
     }
     function itchFilters(){
       filters("#itchfilters",[
+        ["covered","Already on YouTube "+d.itch.filter(g=>g.covered).length],
+        ["trending","itch trending "+d.itch.filter(g=>g.feedScore>=3).length],
         ["new","New today "+d.itch.filter(g=>g.isNew).length],
-        ["free","Free"],
         ["all","All "+d.itch.length]
       ],iFilter,k=>{ iFilter=k; itchFilters(); renderItch(); });
     }
