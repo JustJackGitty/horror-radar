@@ -146,9 +146,12 @@ function delta(g){
 function renderTrend(){
   let gs=D.youtube.games.slice();
   if(tFilter!=="all") gs=gs.filter(g=>g.status===tFilter);
-  $("#trendnote").textContent =
-    `Views are totals across videos published in the last ${D.youtube.lookbackDays} days. `+
-    `The score weights day-over-day movement and spread across channels above raw size — a game three big channels just picked up matters more to you than one everyone already covered.`;
+  $("#trendnote").innerHTML = D.comparedTo
+    ? `Views are totals across videos published in the last ${D.youtube.lookbackDays} days. `+
+      `The score weights day-over-day movement and spread across channels above raw size &mdash; a game three channels just picked up matters more to you than one everyone already covered.`
+    : `<b>No baseline yet, so everything reads NEW and the other filters are empty.</b> `+
+      `That's expected, not broken: movement needs two runs at least ${D.minBaselineHours||6} hours apart. `+
+      `Come back after tomorrow morning's run and CLIMBING starts working.`;
 
   if(!gs.length){ $("#trendlist").innerHTML=`<div class="empty">Nothing in that bucket today.</div>`; return; }
 
@@ -198,11 +201,11 @@ function renderItch(){
 
 function renderSteam(){
   const gs=(sFilter==="upcoming"?D.steam.upcoming:D.steam.newReleases)||[];
-  if(!gs.length){ $("#steamlist").innerHTML=`<div class="empty">Steam returned nothing this run. Their markup shifts occasionally — check scripts/steam.js.</div>`; return; }
+  if(!gs.length){ $("#steamlist").innerHTML=`<div class="empty"><h2>Steam returned nothing</h2><p>Check the run log for the lines starting <code>steam</code> &mdash; they say whether the request failed or just came back empty.</p></div>`; return; }
   $("#steamlist").innerHTML=gs.map(g=>`<article class="row">
     <div>
       <div class="rt"><h3><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.name)}</a></h3></div>
-      <div class="meta"><span class="mono">${esc(g.released||"TBA")}</span><span class="mono">${esc(g.price||"")}</span></div>
+      <div class="meta"><span class="mono">${esc(g.released||"TBA")}</span><span class="mono">${esc(g.price||"")}</span>${g.reviews?`<span class="dev">${esc(g.reviews)}</span>`:""}</div>
     </div>
     <div></div>
   </article>`).join("");
@@ -229,7 +232,9 @@ fetch("data/latest.json?t="+Date.now())
   .then(d=>{
     D=d; $("#boot").classList.add("hidden"); $("#p-trend").classList.remove("hidden");
     $("#date").textContent=d.date;
-    $("#vs").textContent=d.comparedTo?"VS "+d.comparedTo:"NO BASELINE YET";
+    $("#vs").textContent = d.comparedTo
+      ? `VS ${d.comparedTo}${d.baselineAgeHours?" \u00b7 "+d.baselineAgeHours+"H AGO":""}`
+      : "NO BASELINE YET";
     $("#gcount").textContent=d.youtube.games.length;
 
     const counts=s=>d.youtube.games.filter(g=>g.status===s).length;
